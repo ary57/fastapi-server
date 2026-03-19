@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from src.gemini_api import generate_response
-from dotenv import load_dotenv
 
 
 app = FastAPI()
